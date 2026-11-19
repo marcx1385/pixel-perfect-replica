@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application rules
+- Keep ViaCEP requests in the browser using Fetch API; the public service needs no credentials or server proxy.
+- Keep endpoint validation, CEP formatting and XML conversion in a browser-safe utility with focused tests.
+- Define the glass visual system in the global stylesheet and use the shared Button variants for interactive controls.
